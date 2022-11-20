@@ -12,14 +12,17 @@ REST-приложение на Golang. Реализованы основные H
 Если используете Postman, то в закладке Headers необходимо добавить {'Accept': 'application/json'}, а в Authorization {'user': 'password'}
 
 Примеры:
+
 GET
-localhost:8080/get
 
-GET(all)
-localhost:8080/all
+>`localhost:8080/get`
 
-UPDATE(POST)
-localhost:8080/update?id=1&phone=891012345678
 
-Add(PUT)
-localhost:8080/add?user_name=Kirill&phone=891112345678
+GET(all) 
+>`localhost:8080/all`
+
+UPDATE(POST) 
+>`localhost:8080/update?id=1&phone=891012345678`
+
+Add(PUT) 
+>`localhost:8080/add?user_name=Kirill&phone=891112345678`
